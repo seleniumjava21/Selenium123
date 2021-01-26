@@ -1,0 +1,25 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="default package"
+<suite name="default package" parallel="classes" thread-count="2">
+	<!-- <parameter name="browser" value="IE"/> -->
+
+	<!-- <listeners> <listener class-name="seleniumTestNG.Listener"></listener> 
+		</listeners> -->	
+	<test name="testngTest">
+
+
+<!-- <groups> <run> <include name="functionalTest" /> </run> </groups> -->
+
+		
+		<classes>
+
+			<class name="seleniumTestNG.Paralleltests" />
+			<class name="seleniumTestNG.Priorities" />
+			
+
+		</classes>
+	</test>
+
+
+</suite>
